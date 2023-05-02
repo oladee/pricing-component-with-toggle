@@ -44,12 +44,33 @@ const monthly = [
         fileSize: "Send up to 20GB"
     }
 ]
-console.log(annually[0].plan)
+const basicPlan = document.getElementById("Basicplan");
+const basicAmount = document.getElementById("Basicamount").innerText;
+const basicStorage = document.getElementById("Basicstorage").innerText;
+const basicUsers = document.getElementById("Basicusers").innerText
+const basicSend = document.getElementById("Basicsend").innerText;
+const professionalPlan = document.getElementById("Professionalplan").innerText;
+const professionalAmount = document.getElementById("Professionalamount").innerText;
+const professionalStorage = document.getElementById("Professionalstorage").innerText;
+const professionalUsers = document.getElementById("Professionalusers").innerText
+const professionalSend = document.getElementById("Professionalsend").innerText;
+
+const masterPlan = document.getElementById("Masterplan").innerText;
+const masterAmount = document.getElementById("Masteramount").innerText;
+const masterStorage = document.getElementById("Masterstorage").innerText;
+const masterUsers = document.getElementById("Masterusers").innerText
+const masterSend = document.getElementById("Mastersend").innerText;
+
+
 const toggle = document.getElementById("check");
-toggle.addEventListener("click", (e) => {
+
+toggle.addEventListener("focus", (e) => {
+    
     if(e.target.checked){
-        console.log('yeag')
-    }else if(!(e.target.checked)){
-        console.log('congrats')
+        basicPlan.textContent = monthly[0].plan
+        console.log(basicPlan)
+    }
+    if(!(e.target.checked)){
+        
     }
 })

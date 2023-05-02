@@ -74,3 +74,17 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.card{
+    text-align: center;
+    color: hsl(233, 13%, 49%);
+    padding: 20px 10px;
+    background-color: #ffffff;
+}
+.card p{
+    padding: 15px 0px ;
+}
+#Professionalamount, #Basicamount, #Masteramount{
+    font-size: 35px;
+    color: hsl(232, 13%, 33%);
+    font-weight: 700;
+}
