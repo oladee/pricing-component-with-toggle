@@ -1,2 +1,9 @@
 const toggle = document.getElementById("check");
-console.log(toggle)
+toggle.addEventListener("click", (e) => {
+    if(e.target.checked){
+        console.log('yeag')
+    }else if(!(e.target.checked)){
+        console.log('congrats')
+    }
+})
+
