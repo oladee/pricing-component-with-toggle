@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  padding: 1em;
+  padding: 1.5em;
   background-color: hsl(240, 78%, 98%);
   font-family: 'Montserrat', sans-serif;
 }
@@ -74,11 +74,21 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+main{
+    margin-top: 4.5rem;
+}
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card{
     text-align: center;
     color: hsl(233, 13%, 49%);
     padding: 20px 10px;
     background-color: #ffffff;
+    margin-bottom: 1.8rem;
+    border-radius: 10px;
 }
 .card p{
     padding: 15px 0px ;
