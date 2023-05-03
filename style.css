@@ -76,6 +76,10 @@ input:checked + .slider:before {
 }
 main{
     margin-top: 4.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .money{
     display: flex;
@@ -85,16 +89,29 @@ main{
 .card{
     text-align: center;
     color: hsl(233, 13%, 49%);
-    padding: 20px 10px;
+    padding: 20px 25px;
     background-color: #ffffff;
     margin-bottom: 1.8rem;
     border-radius: 10px;
+    max-width: fit-content;
 }
 .card p{
     padding: 15px 0px ;
+   
 }
 #Professionalamount, #Basicamount, #Masteramount{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: hsl(232, 13%, 33%);
     font-weight: 700;
+}
+button{
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(240, 78%, 98%);
+  padding: 9px 70px;
+  border-radius: 5px;
+  background: linear-gradient(to right,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+  outline: none;
+  border: none;
 }
