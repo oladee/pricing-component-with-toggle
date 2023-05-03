@@ -88,6 +88,7 @@ main{
 }
 .card{
     text-align: center;
+    font-weight: 700;
     color: hsl(233, 13%, 49%);
     padding: 20px 25px;
     background-color: #ffffff;
@@ -99,13 +100,16 @@ main{
     padding: 15px 0px ;
    
 }
+.Professional{
+  background-color: hsl(237, 63%, 64%);
+  color: hsl(240, 78%, 98%);
+}
 #Professionalamount, #Basicamount, #Masteramount{
     font-size: 3.5rem;
-    color: hsl(232, 13%, 33%);
     font-weight: 700;
 }
 button{
-  margin-top: 20px;
+  margin: 20px 0px 10px;
   font-size: 15px;
   font-weight: 400;
   color: hsl(240, 78%, 98%);
