@@ -112,6 +112,9 @@ main{
     font-size: 3.5rem;
     font-weight: 700;
 }
+#Professionalusers, #Professionalstorage, #Professionalsend, .money{
+  border-bottom: 1px solid rgba(246, 246, 254, 0.5);;
+}
 button{
   margin: 20px 0px 10px;
   font-size: 15px;
