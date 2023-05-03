@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   padding: 1.5em;
@@ -96,6 +97,9 @@ main{
     border-radius: 10px;
     max-width: fit-content;
 }
+.card:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 .card p{
     padding: 15px 0px ;
    
@@ -103,6 +107,8 @@ main{
 .Professional{
   background: linear-gradient(80deg,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
   color: hsl(240, 78%, 98%);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .Professional button{
   background: hsl(240, 78%, 98%);
@@ -114,6 +120,10 @@ main{
 }
 #Professionalusers, #Professionalstorage, #Professionalsend, .money{
   border-bottom: 1px solid rgba(246, 246, 254, 0.5);;
+}
+.money p{
+  font-size: 35px;
+  padding-right: 5px;
 }
 button{
   margin: 20px 0px 10px;
